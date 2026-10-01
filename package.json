@@ -1,0 +1,16 @@
+{
+  "name": "smartfarm-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SmartFarm shared marketplace with seller accounts",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  }
+}
